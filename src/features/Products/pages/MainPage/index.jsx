@@ -71,7 +71,6 @@ function MainPage(props) {
         dispatch(addProductToCart(item));
         history.push("/thanh-toan");
     }
-console.log(sortProductsale());
     return (
         <div >
             <Carousels></Carousels>
