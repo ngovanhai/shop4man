@@ -5,7 +5,7 @@ import queryString from 'query-string';
 
 
 const axiosClient = axios.create({
-    baseURL: 'http://127.0.0.1:8000/',
+    baseURL: 'https://shop4menss.herokuapp.com/',
     headers: {
         'content-type': 'application/json',
     },
