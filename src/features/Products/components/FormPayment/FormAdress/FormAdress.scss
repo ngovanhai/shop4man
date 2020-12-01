@@ -1,0 +1,47 @@
+.FormPayment {
+    margin: 20px 0px;
+    &__FormAdress {
+        margin-right: 20px !important;
+        font-size: 14px;
+   
+        &__title {
+            font-size: 20px;
+        
+        }
+        &__line {
+            border-bottom: 1px solid #ccc;
+            margin: 20px 0px;
+        }
+        &__label {
+        }
+        &__oder {
+            background-color: orangered !important;
+            border: 0;
+            color: #ccc;
+            border-radius: 5px;
+            float: right;
+        }
+        &__errors{
+            color:red;
+        }
+    }
+    span.MuiButton-label {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+input{
+    width: 100%;
+    height: 2rem;
+    border: 0.1px solid #ff4500;
+     border-radius: 10px;
+}
+input:focus{
+    outline: none;
+    width: 100%;
+}
+.ant-row{
+    margin:10px;
+}

@@ -1,0 +1,59 @@
+.AddEditProduct {
+    &__show {
+        max-width: 100% !important;
+    }
+    &__upload {
+     
+        border:1px blue;
+        margin-top:20px;
+    }
+    &__input{
+        height: 50px;
+        margin: 10px;
+        max-width: 500px;
+        border : 1px solid rgb(96, 161, 245)
+    }
+    &__input:active{
+        outline: none !important;
+    }
+    &__Select{
+        width: 500px;
+        height: 50px;
+        border-radius: 10px;
+        border : 1px solid rgb(96, 161, 245)
+    }
+    &__textarea{
+        max-width: 500px;
+        border-radius: 10px;
+        border : 1px solid rgb(96, 161, 245)
+    }
+    &__textarea:focus{
+        outline: none;
+    }
+    &__input:active {
+        outline: none;
+        outline-style: none;
+    }
+    &__photo {
+        position: relative;
+    }
+    &__description {
+        width: 100%;
+        border-radius: 5px;
+    }
+    &__category {
+        width: 100%;
+    }
+    &__errors{
+        color:red;
+        font-size: 15px;
+        font-weight: bold;
+    }&__content h1{
+        color:#3b7bf3;
+    }
+    &__label{
+        color:#0415df;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}

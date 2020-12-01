@@ -1,0 +1,25 @@
+$color-orange: #d6644a;
+.ItemContent {
+    margin-top: 20px;
+    animation: haha 2s;
+    transition: all 2s;
+    @keyframes haha {
+        form{
+            margin-left: 2000px;
+        }
+        to{
+            margin-left: 0px !important;
+        }
+    }
+    &__title {
+        color: red;
+    }
+    &__BtnView {
+        text-align: left;
+        font-size: 12px !important;
+        margin: 0px;
+        padding: 0px;
+        color: $color-orange;
+    }
+
+}

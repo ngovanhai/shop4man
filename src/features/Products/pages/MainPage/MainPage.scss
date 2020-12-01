@@ -1,0 +1,20 @@
+.main {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    &__title {
+        margin-top: 20px;
+        font-size: 40px;
+        font-weight: bold;
+        animation: start 2s;
+    }
+    @keyframes start {
+        from{
+            font-size: 2px;
+            margin-left: 1000px;
+        }
+        to{
+            font-size: 40px;
+            margin-left: 0px;
+        }
+    }
+}
